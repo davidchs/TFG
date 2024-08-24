@@ -136,8 +136,7 @@ def fibmodN(circuit, a, b, N, mod_bin: str, c, t):
 
 def c_fibmodN(n, mod_bin, power):
     """Controlled Fibonacci sequence by mod N"""
-
-
+    # Create the register involved
     a = QuantumRegister(n,'a')
     b = QuantumRegister(n+1,'b')
     N = AncillaRegister(n,'N')
@@ -145,10 +144,12 @@ def c_fibmodN(n, mod_bin, power):
     t = AncillaRegister(1,'t')
     circuit = QuantumCircuit(a, b, N, c, t)
 
+    # Initialize the N register depending on the module
     for i, qubit in enumerate(mod_bin):
         if int(qubit) == 1:
             circuit.x(N[i])
 
+    # Proceed with Fibonacci sequence as many times as the operator needs to be applied
     for iteration in range(power):
         circuit = fibmodN(circuit, a, b, N, mod_bin, c, t)
 
