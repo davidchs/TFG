@@ -3,7 +3,7 @@
 This repository contains the code and the results obtained during the development of the TFG/Bachelor's Thesis titled **"Detailed Analysis of Shor's Algorithm in Quantum Computing"**. 
 The project focuses on the study of Shor's algorithm and its implementation using quantum computing. Specifically, it is explored the limits of the QPE used in Shor's algorithm for order finding, to apply for other type of functions for period finding. 
 
-In this work, the Fibonacci sequence is implemented via quantum modular arithmetics and evaluated for moduli represented by 2 or 3 qubits (i.e., 2, 3, 4, 5, 6 and 7 in binary). All this is done with the **Qiskit** software.
+In this work, the Fibonacci sequence is implemented via quantum modular arithmetics and evaluated for moduli represented by 2 or 3 qubits (i.e., 2, 3, 4, 5, 6 and 7 in binary). All this is done with the **Qiskit** software  (v1.1.0).
 
 ## Project Description
 
@@ -15,5 +15,5 @@ Also, further investigation and its expectations are addressed.
 ### Repository Contents
 
 - **Source Code**: Implementations of QPE, periodicity identification in the Shor's algorithm's modular exponentiation and modulated Fibonacci sequence. There are two .py files for implementimg the quantum modular arithmetics and its integration for period finding in Fibonacci's case. Also, there is a .ipynb for the period finding of modular exponentiation giving further explanation as how this algorithm is structured.
-- **Plots**: Results (in the form of plots) from the simulations conducted using Qiskit (v1.1.0) to verify the effectiveness of the algorithm.
+- **Plots**: Results (in the form of plots) from the simulations conducted using Qiskit to verify the effectiveness of the algorithm.
 - **Documentation**: Link to the TFG/Bachelor's Thesis: ...
