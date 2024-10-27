@@ -10,7 +10,7 @@ In this work, the Fibonacci sequence is implemented via quantum modular arithmet
 The main objective of this project is to analyze and experiment with the **QPE** and its ability to obtain a phase and, subsequently, a period/order related to the function evaluated. 
 Additionally, it explores its adaptation to identify periodicity in other functions, such as the **modulated Fibonacci sequence**. 
 The results of this work demonstrate the applicability of the algorithm in different contexts and reveal its limitations. 
-Also, further investigation and its expectations are addressed.
+Also, further investigations and its expectations are addressed.
 
 ### Repository Contents
 
